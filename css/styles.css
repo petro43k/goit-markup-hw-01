@@ -12,25 +12,27 @@ a {
 }
 
 
-.header-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
-.header-logo-span {
-    color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+.header-logo {color: var(--IRIS, #4D5AE5);
+    font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+    
+
+
+.header-logo-span {
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+    }
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
 font-size: 16px;
