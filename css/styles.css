@@ -84,6 +84,11 @@ background-color: #4D5AE5;
 cursor: pointer;
 }
 
+.effective-botton:hover {
+    background-color: #404BBF
+}
+
+
 .effective-botton:focus {
     background-color: #404BBF
 }
@@ -104,11 +109,11 @@ letter-spacing: 0.02em;
 }
 
 .team {
-    background-color: var(--CLOUD, #F4F4FD);
+ background-color: var(--CLOUD, #F4F4FD);
 }
 
-.team-list {
-    background-color: #FFFFFF
+.team-item {
+background-color: #FFFFFF
 }
 
 .team-itemtitle {
