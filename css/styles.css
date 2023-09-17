@@ -1,7 +1,7 @@
-.body {
-font-family: "Roboto",sans-serif;
-color: #434455;
-background-color: #FFFFFF;
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -12,7 +12,8 @@ a {
 }
 
 
-.header-logo {color: var(--IRIS, #4D5AE5);
+.header-logo {
+    color: var(--IRIS, #4D5AE5);
     font-family: Raleway,sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -21,17 +22,8 @@ a {
     text-transform: uppercase;
 }
     
-
-
 .header-logo-span {
 color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway,sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
     }
 .header-menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -41,7 +33,19 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.address-contact-item {
+.header-menu-link:hover {
+    color: #404bbf
+}
+
+.header-menu-link:focus {
+    color: #404bbf
+}
+
+.address{
+    font-style: normal
+}
+
+.address-contact-link {
     color: var(--SLATE, #434455);
 font-size: 16px;
 font-weight: 400;
@@ -49,20 +53,39 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.address-contact-link:hover {
+    color: #404bbf
+}
 
+.address-contact-link:focus {
+    color: #404bbf
+}
+
+.effective{
+    background-color: #2e2f42;
+}
 .effective-subtitle {
     color: var(--WHITE, #FFF);
 font-size: 56px;;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 }
+
 .effective-botton {
     color: var(--WHITE, #FFF);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif ;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+
+.effective-botton:focus {
+    background-color: #404BBF
 }
 
 .information-subtitle {
@@ -78,6 +101,14 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: var(--CLOUD, #F4F4FD);
+}
+
+.team-list {
+    background-color: #FFFFFF
 }
 
 .team-itemtitle {
@@ -132,6 +163,26 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.footre {
+    background-color: #2e2f42;
+}
+
+.footre-logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footre-logo-span{
+ color: #f4f4fd;
+}
+
+
+
 
 .footre-text {
     color: var(--CLOUD, #F4F4FD);
