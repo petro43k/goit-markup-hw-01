@@ -107,10 +107,11 @@ letter-spacing: 0.02em;
 
 .effective {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .hero-container {
     background-color: #2e2f42;
-    padding: 188px 472px 292px;
+    
 }
 .effective-subtitle {
     color: var(--WHITE, #FFF);
@@ -119,6 +120,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 max-width: 496px;
+margin: 0 auto;
 }
 
 
