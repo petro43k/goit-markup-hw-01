@@ -269,6 +269,7 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     min-width: 169px;
     row-gap: 48px;
+    column-gap: 24px;
 }
 .portfolio-item {
     width: calc((100% - 48px) / 3);
