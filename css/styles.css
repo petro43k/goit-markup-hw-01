@@ -71,8 +71,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding: 24px 0;
 }
+
 
 .header-menu-link:hover {
     color: #404bbf
@@ -109,11 +109,11 @@ letter-spacing: 0.02em;
 
 .effective {
     background-color: #2e2f42;
+    background-image: linear-gradient( rgba(46, 47, 66, 0.70),  rgba(46, 47, 66, 0.70)), url(../images/office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
-}
-.hero-container {
-    background-color: #2e2f42;
-    
 }
 .effective-subtitle {
     color: var(--WHITE, #FFF);
@@ -239,7 +239,6 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-
 }
 .team-text {
     color: var(--SLATE, #434455);
@@ -247,6 +246,15 @@ text-align: center;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
+}
+
+
+
+.team-linc{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
 .portfolio {
@@ -280,7 +288,6 @@ margin-bottom: 72px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
@@ -317,7 +324,7 @@ letter-spacing: 0.02em;
 }
 
 .footre-logo-span{
- color: #f4f4fd;
+color: #f4f4fd;
 }
 
 
