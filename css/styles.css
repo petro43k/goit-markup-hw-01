@@ -71,6 +71,17 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+margin-bottom: 20px;
+}
+
+.header-menu-link::after {
+    width: 48px;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
 }
 
 
@@ -97,6 +108,9 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-contact-link:hover {
@@ -112,9 +126,13 @@ letter-spacing: 0.02em;
     background-image: linear-gradient( rgba(46, 47, 66, 0.70),  rgba(46, 47, 66, 0.70)), url(../images/office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     padding: 188px 0;
 }
+
+.hero-container {
+
+}
+
 .effective-subtitle {
     color: var(--WHITE, #FFF);
 font-size: 56px;
@@ -143,6 +161,9 @@ background-color: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 border: none;
 min-width: 169px;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .effective-botton:hover {
@@ -263,8 +284,17 @@ margin-bottom: 8px;
     flex-shrink: 0;
     background-image: url(../images/Ellipse.svg);
     background-repeat: no-repeat;
+    transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-item:hover {
+    background-image: url(../images/ellipse-team.svg);
 }
 
+.icon-item:focus {
+    background-image: url(../images/ellipse-team.svg);
+}
 .team-linc {
     display: flex;
 justify-content: center;
@@ -355,12 +385,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
 }
-
-.media-container {
-
-}
-
-.footre-container {
+.footr-container {
+    display: flex;
+    align-items: baseline;
 
 }
 
@@ -368,6 +395,9 @@ max-width: 264px;
 .footre-media-icon {
     display: flex;
     gap: 16px;
+}
+.footre-container {
+    margin-right: 120px;
 }
 
 .footre-item {
@@ -377,9 +407,18 @@ max-width: 264px;
     flex-shrink: 0;
     background-image: url(../images/Ellipse.svg);
     background-repeat: no-repeat;
-    
+    transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footre-item:hover {
+    background-image: url(../images/ellipse-footre.svg);
+}
+
+.footre-item:focus {
+    background-image: url(../images/ellipse-footre.svg);
+}
 .footre-linc {
     display: flex;
 justify-content: center;
