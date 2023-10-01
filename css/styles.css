@@ -249,12 +249,28 @@ letter-spacing: 0.02em;
 margin-bottom: 8px;
 }
 
-
-
-.team-linc{
+.icon {
     display: flex;
-    gap: 24px;
     justify-content: center;
+    align-items: center;
+    gap: 24px;
+    min-width: 232px;
+}
+
+.icon-item {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-image: url(../images/Ellipse.svg);
+    background-repeat: no-repeat;
+}
+
+.team-linc {
+    display: flex;
+justify-content: center;
+align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio {
@@ -308,6 +324,7 @@ letter-spacing: 0.02em;
     background-color: #2e2f42;
     padding-top:100px ;
     padding-bottom: 100px;
+    display: flex;
 }
 
 
@@ -321,6 +338,7 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
     margin-bottom: 16px;
     display: inline-block; 
+    display: flex;
 }
 
 .footre-logo-span{
@@ -336,4 +354,49 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
+}
+
+.media-container {
+
+}
+
+.footre-container {
+
+}
+
+
+.footre-media-icon {
+    display: flex;
+    gap: 16px;
+}
+
+.footre-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-image: url(../images/Ellipse.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.footre-linc {
+    display: flex;
+justify-content: center;
+align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.footre-media {
+    display: flex;
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
