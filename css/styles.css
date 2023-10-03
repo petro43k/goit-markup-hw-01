@@ -29,6 +29,7 @@ img {
     padding-bottom: 24px;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 .header-container {
     display: flex;
@@ -74,21 +75,21 @@ letter-spacing: 0.02em;
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
+position: relative;
+color: #404bbf; 
 }
 
 .header-menu-link::after {
-    display: flex;
-    width: 48px;
-    height: 4px;
     position: absolute;
     background-color: #404BBF;
     content: '';
+    width: 100%;
+    height: 4px;
     border-radius: 2px;
-    margin-top: 20px;
-
+    left: 0;
+    bottom: -1px;
 }
+
 
 
 .header-menu-link:hover {
@@ -131,14 +132,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #2e2f42;
     background-image: linear-gradient( rgba(46, 47, 66, 0.70),  rgba(46, 47, 66, 0.70)), url(../images/office.jpg);
     background-repeat: no-repeat;
+    max-width: 1440px;
+    background-size: cover;
     background-position: center;
     padding: 188px 0;
 }
-
-.hero-container {
-
-}
-
 .effective-subtitle {
     color: var(--WHITE, #FFF);
 font-size: 56px;
@@ -168,8 +166,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 border: none;
 min-width: 169px;
 transition-property: color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .effective-botton:hover {
@@ -304,18 +301,18 @@ margin-bottom: 8px;
     width: 40px;
     height: 40px;
     flex-shrink: 0;
-    background-image: url(../images/Ellipse.svg);
+    background-image: url(../images/ellipse.png);
     background-repeat: no-repeat;
     transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-item:hover {
-    background-image: url(../images/ellipse-team.svg);
+    background-image: url(../images/ellipse-team.png);
 }
 
 .icon-item:focus {
-    background-image: url(../images/ellipse-team.svg);
+    background-image: url(../images/ellipse-team.png);
 }
 .team-linc {
     display: flex;
@@ -454,7 +451,7 @@ max-width: 264px;
     width: 40px;
     height: 40px;
     flex-shrink: 0;
-    background-image: url(../images/Ellipse.svg);
+    background-image: url(../images/ellipse.png);
     background-repeat: no-repeat;
     transition-property: color;
 transition-duration: 250ms;
@@ -462,11 +459,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footre-item:hover {
-    background-image: url(../images/ellipse-footre.svg);
+    background-image: url(../images/ellipse-footre.png);
 }
 
 .footre-item:focus {
-    background-image: url(../images/ellipse-footre.svg);
+    background-image: url(../images/ellipse-footre.png);
 }
 .footre-linc {
     display: flex;
