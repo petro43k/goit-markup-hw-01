@@ -375,15 +375,15 @@ margin-bottom: 72px;
     
 }
 
-.portfolio-text-container:hover {
-    transform: translateY(0);
-}
-
 .portfolio-covr-text {
     color: var(--CLOUD, #F4F4FD);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.portfolio-covr-text:hover {
+    transform: translateY(0);
 }
 
 
