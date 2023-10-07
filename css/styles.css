@@ -348,6 +348,8 @@ margin-bottom: 72px;
     column-gap: 24px;
 }
 
+
+
 .sellers-covr-wrap {
     position: relative;
     overflow: hidden;
@@ -356,8 +358,9 @@ margin-bottom: 72px;
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item:hover .portfolio-text-container{
+.portfolio-item:hover .portfolio-text-container {
     transform: translateY(0);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-text-container {
@@ -474,7 +477,7 @@ border-radius: 50%;
 .footre-linc:focus {
     background-color: #31d0aa;
 }
-.footere-icon {
+.footre-icon {
     fill: #f4f4fd ;
 }
 
