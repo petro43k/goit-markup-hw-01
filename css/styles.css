@@ -364,26 +364,22 @@ margin-bottom: 72px;
 }
 
 
-.portfolio-text-container {
-    position: absolute;
+.portfolio-covr-text {
+    color: var(--CLOUD, #F4F4FD);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+position: absolute;
     height: 100%;
     top: 0;
     padding: 40px 32px 164px;
     background: var(--IRIS, #4D5AE5);
     transform: translateY(100%);
     transition-duration: 250ms;
-    
-}
-
-.portfolio-covr-text {
-    color: var(--CLOUD, #F4F4FD);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 }
 
 .portfolio-covr-text:hover {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 
@@ -407,6 +403,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+.portfolio-text:hover {
+    transform: translateY(0%);
+}
+
 .footre {
     background-color: #2e2f42;
     padding-top:100px ;
