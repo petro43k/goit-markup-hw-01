@@ -664,11 +664,12 @@ letter-spacing: 0.04em;
 }
 
 .check-text {
-    color: var(--LIGHT-SLATE, #8E8F99);
+color: var(--LIGHT-SLATE, #8E8F99);
 font-size: 12px;
 line-height: 1.2;
 letter-spacing: 0.04em;
-margin-left: 8px;
+display: flex;
+align-items: center;
 }
 
 .check-text a {
@@ -677,7 +678,20 @@ margin-left: 8px;
 }
 
 .check-text-box {
+    display: block;
     width: 16px;
     height: 16px;
-    
+    border-radius: 2px;
+    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.modal-check:checked + .check-text .check-text-box{
+    background-color: #404BBF;
+    border: none;
+    fill: #FFFFFF;
 }
