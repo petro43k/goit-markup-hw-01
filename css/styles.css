@@ -554,7 +554,7 @@ border-radius: 50%;
     right: 24px;
     padding: 0;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -565,14 +565,19 @@ border-radius: 50%;
 
 .model-btn:hover {
     background-color: var(--OCEAN, #404BBF);
+    border: none;
 }
 
 .model-btn:focus {
     background-color: var(--OCEAN, #404BBF);
-    
+    border: none;
 }
 
 .model-btn:hover .model-btn-icon {
+    fill: #FFFFFF;
+}
+
+.model-btn:focus .model-btn-icon {
     fill: #FFFFFF;
 }
 
