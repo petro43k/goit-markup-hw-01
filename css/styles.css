@@ -507,6 +507,61 @@ border-radius: 50%;
     margin-bottom: 16px;
 }
 
+.media-container {
+    margin-right: 80px;
+}
+
+.footre-form {
+    display: flex;
+}
+
+.footre-label {
+    gap: 24px;
+}
+
+.footre-form-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 24px;
+    border: 1px solid var(--WHITE, #FFF);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    padding-left: 16px;
+    color: #ffffff;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footre-form-input::placeholder {
+    color: #ffffff;
+}
+
+.footre-form-btn {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.footre-form-icons {
+    margin-left: 16px;
+    
+}
+
 .backdrop {
     position: fixed;
     top: 0;
