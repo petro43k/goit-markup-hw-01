@@ -513,11 +513,10 @@ border-radius: 50%;
 
 .footre-form {
     display: flex;
-}
-
-.footre-label {
     gap: 24px;
 }
+
+
 
 .footre-form-input {
     width: 264px;
@@ -545,7 +544,6 @@ border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto";
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
