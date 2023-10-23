@@ -449,7 +449,7 @@ color: #f4f4fd;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-max-width: 264px;
+min-width: 264px;
 }
 .footr-container {
     display: flex;
@@ -730,6 +730,7 @@ letter-spacing: 0.04em;
 }
 
 .check-text {
+display: flex;
 color: var(--LIGHT-SLATE, #8E8F99);
 font-size: 12px;
 line-height: 1.17;
